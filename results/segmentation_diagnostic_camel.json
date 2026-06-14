@@ -1,0 +1,75 @@
+{
+  "backend": "camel",
+  "rows": [
+    {
+      "word": "المعلمون",
+      "normalization": "المعلمون",
+      "prefixes": "ال معلمون",
+      "suffixes": "المعلمون",
+      "full": "ال معلمون"
+    },
+    {
+      "word": "بالمدرسة",
+      "normalization": "بالمدرسة",
+      "prefixes": "ب ال مدرسة",
+      "suffixes": "بالمدرسة",
+      "full": "ب ال مدرسة"
+    },
+    {
+      "word": "وكتابهم",
+      "normalization": "وكتابهم",
+      "prefixes": "و كتابهم",
+      "suffixes": "وكتاب هم",
+      "full": "و كتاب هم"
+    },
+    {
+      "word": "فسيذهبون",
+      "normalization": "فسيذهبون",
+      "prefixes": "ف س يذهبون",
+      "suffixes": "فسيذهبون",
+      "full": "ف س يذهبون"
+    },
+    {
+      "word": "للأطفال",
+      "normalization": "لالأطفال",
+      "prefixes": "ل ال أطفال",
+      "suffixes": "لالأطفال",
+      "full": "ل ال أطفال"
+    },
+    {
+      "word": "كتبتها",
+      "normalization": "كتبتها",
+      "prefixes": "كتبتها",
+      "suffixes": "كتبت ها",
+      "full": "كتبت ها"
+    },
+    {
+      "word": "يكتبون",
+      "normalization": "يكتبون",
+      "prefixes": "يكتبون",
+      "suffixes": "يكتبون",
+      "full": "يكتبون"
+    },
+    {
+      "word": "الطالبات",
+      "normalization": "الطالبات",
+      "prefixes": "ال طالبات",
+      "suffixes": "الطالبات",
+      "full": "ال طالبات"
+    },
+    {
+      "word": "وقالوا",
+      "normalization": "وقالوا",
+      "prefixes": "و قالوا",
+      "suffixes": "وقالوا",
+      "full": "و قالوا"
+    },
+    {
+      "word": "بمدرستنا",
+      "normalization": "بمدرسةنا",
+      "prefixes": "ب مدرسةنا",
+      "suffixes": "بمدرسة نا",
+      "full": "ب مدرسة نا"
+    }
+  ]
+}

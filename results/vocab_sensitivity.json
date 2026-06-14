@@ -1,0 +1,34 @@
+{
+  "seed": 42,
+  "configured_backend": "camel",
+  "effective_backend": "camel",
+  "rows": [
+    {
+      "vocab_size": 4000,
+      "BPE_f1": 0.7979709078107248,
+      "morph_BPE_f1": 0.8009663633154003,
+      "delta_f1": 0.002995455504675504,
+      "BPE_accuracy": 0.798,
+      "morph_BPE_accuracy": 0.801,
+      "delta_accuracy": 0.0030000000000000027
+    },
+    {
+      "vocab_size": 8000,
+      "BPE_f1": 0.7954443097133195,
+      "morph_BPE_f1": 0.8039558900752669,
+      "delta_f1": 0.008511580361947435,
+      "BPE_accuracy": 0.7955,
+      "morph_BPE_accuracy": 0.804,
+      "delta_accuracy": 0.008500000000000063
+    },
+    {
+      "vocab_size": 16000,
+      "BPE_f1": 0.7878336615906871,
+      "morph_BPE_f1": 0.810460149246379,
+      "delta_f1": 0.022626487655691863,
+      "BPE_accuracy": 0.788,
+      "morph_BPE_accuracy": 0.8105,
+      "delta_accuracy": 0.022499999999999964
+    }
+  ]
+}

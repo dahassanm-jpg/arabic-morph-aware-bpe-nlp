@@ -1,0 +1,459 @@
+{
+  "classification": {
+    "helps": [
+      {
+        "text": "كنت انتظر اكثر من احلام مستغانمي في هذا الكتاب، ربما لاجل ذلك كان تقيمي منخفض الي هذه الدرجة. عموما لا انصح قراء مستغانمي الذين شغفتهم الثلاثية ان يطلعوا علي هذا الكتاب، الصدمة هي ما ستشعرون به بعد انتهائكم منه. مايجعل تقبله صعب هو انه كتاب لم يوجه لي، ولكنني اتمني ان يجون وقعه كبلسم لاولئك الذين خصتهم السيدة احلام به.",
+        "true_label": 0,
+        "bpe_pred": 1,
+        "morph_pred": 0
+      },
+      {
+        "text": "بسيطة مؤثرة ماساوية تستحق القراءة",
+        "true_label": 1,
+        "bpe_pred": 0,
+        "morph_pred": 1
+      },
+      {
+        "text": "كتيب علي الرغم من صغره الا انه يمثل صدمة كبيرة لمن قراه بقلبه لا بعقله",
+        "true_label": 1,
+        "bpe_pred": 0,
+        "morph_pred": 1
+      },
+      {
+        "text": "حقيقه ماقريته كله قريت نصه تقريبا الفكره العامه للرواية حلوووه وبدايتها بقوه مشوقه بس سرده للتفاصيل بما اني اول مدمنة فلسفه ماحسه شمل وكان يمر مرور الكرام علي كل فيلسوف ومايتكلم عنه بشكل عام ومختصر مادري المشكله بلترجمه او فيني الاكيد انها ماحسيتها بترضيني بالمعرفة فوقفتها واعتمدت علي الفهرس باني بابحث عن كل فيلسوف ماعرفه بوكيبيديا لانه اشمل بنظري من الرواية",
+        "true_label": 0,
+        "bpe_pred": 1,
+        "morph_pred": 0
+      },
+      {
+        "text": "هذه الرواية لا ارضي لاحد ان يقراها. كثير من الالم النبيل. والجمال الكثير الذي لا يحتمل. سامحك الله علي ما تفعله بنا يا واسيني. دمت اديبا كبيرا.",
+        "true_label": 1,
+        "bpe_pred": 0,
+        "morph_pred": 1
+      }
+    ],
+    "hurts": [
+      {
+        "text": "اذا اردت ان تعرف معني الكتابة الساخرة فاقرا لمحمد عفيفي :)",
+        "true_label": 1,
+        "bpe_pred": 1,
+        "morph_pred": 0
+      },
+      {
+        "text": "عجبني جدا اسلوب الكاتب وثقافته المتنوعة وانه حكي اكتر من قصة باكتر من وجهة نظر واكتر من قصة مرتبطة بالتانية وعجبني انه وضح وجهة نظر اكتر من شخص للتاني . في ناس ممكن تشوفك غريب بالرغم من ان ناس تانية ممكن تحبك وتشوف العيوب اللي قالوها غيرهم هي مميزات والنهاية جميلة ومش متوقعة شوقني درويش لقراءة كتاب تاريخ العرب لل حوراني وسبب ال 4 نجوم اني حسيت بمملل شوية في سرد الاحداث وفي تطاول . واعتقد اسم الرواية كان المفروض يبقي غير كده لان الكاتب اقتصر علي قصة واحده في الرواية",
+        "true_label": 1,
+        "bpe_pred": 1,
+        "morph_pred": 0
+      },
+      {
+        "text": "يعني عذرا من كل الذين \"يهيصون\" للكتاب، ما الذي اعجبكم فيه؟ لم اجد سوي فلسفة باولو المعتادة، فلسفته الغريبة طوال صفحات، وبعض السرد هنا وهناك. وكاني اقرا حاج كومبوستيلا للمرة الثانية! نفس فكرة \"الهدف الاسمي والاعظم\"،\"و\"السبب الحياتي\"، وخرافات كويليو المعتادة. كنت قد قرات \"الرابح يبقي وحيدا\"، ولم ترق لي، اتبعتها بحاج كومبوستيلا، وقررت في خطوة نهائية ان امنح كويليو فرصته الاخيرة مع \"رائعته العالمية\" الخيميائي، فماذا وجدت؟ اسطورة قديمة قديمة، وتناول تقليدي، وامور اخري لا استطيع ان افهم كيف اوصلت الرواية الي مصاف العالمية! جدت علي الكتاب بنجمة ثانية كرمي لعيني بعض عبارات كويليو الفلسفية التي تعجبني لا اكثر. وبالمناسبة، انا حاقدة جدا علي كل من اعطي الكتاب اكثر من ثلاث نجمات. هل يعد ذلك توتاليتارية؟ فليكن، كتاب كهذا يستحق حكما عسكريا كاملا ! امر اخير، المشكلة لم تكن من الترجمة، فالترجمة كانت جيدة جدا، وربما كانت السبب في دفعي الي انهاء الكتاب.",
+        "true_label": 0,
+        "bpe_pred": 0,
+        "morph_pred": 1
+      },
+      {
+        "text": "لا شي اجمل من محمود عندما يبتسم",
+        "true_label": 1,
+        "bpe_pred": 1,
+        "morph_pred": 0
+      },
+      {
+        "text": "طريقة عرض الاحداث في الرواية هو اكثر ما اعجبني ولا شك ان اسلوب الاستاذ علاء اسلوب منمق راقي لدي بعض التحفظات عليه وعلي قصد استثارة القارئ بطرق كانت يمكن ان تكون افضل من هذا، علي اي حال الرواية ممتعه",
+        "true_label": 0,
+        "bpe_pred": 0,
+        "morph_pred": 1
+      }
+    ],
+    "n_helps_total": 129,
+    "n_hurts_total": 111,
+    "net_help": 18
+  },
+  "retrieval": {
+    "helps": [
+      {
+        "query_id": "dev_query105",
+        "delta_nDCG@10": 0.6436579276931673,
+        "bpe_nDCG@10": 0.29127873064148246,
+        "morph_nDCG@10": 0.9349366583346498
+      },
+      {
+        "query_id": "dev_query163",
+        "delta_nDCG@10": 0.5,
+        "bpe_nDCG@10": 0.0,
+        "morph_nDCG@10": 0.5
+      },
+      {
+        "query_id": "dev_query113",
+        "delta_nDCG@10": 0.4367467095119258,
+        "bpe_nDCG@10": 0.0,
+        "morph_nDCG@10": 0.4367467095119258
+      },
+      {
+        "query_id": "dev_query107",
+        "delta_nDCG@10": 0.43067655807339306,
+        "bpe_nDCG@10": 0.0,
+        "morph_nDCG@10": 0.43067655807339306
+      },
+      {
+        "query_id": "dev_query9",
+        "delta_nDCG@10": 0.36907024642854247,
+        "bpe_nDCG@10": 0.6309297535714575,
+        "morph_nDCG@10": 1.0
+      }
+    ],
+    "hurts": [
+      {
+        "query_id": "dev_query139",
+        "delta_nDCG@10": -0.6309297535714575,
+        "bpe_nDCG@10": 0.6309297535714575,
+        "morph_nDCG@10": 0.0
+      },
+      {
+        "query_id": "dev_query187",
+        "delta_nDCG@10": -0.6131471927654584,
+        "bpe_nDCG@10": 0.6131471927654584,
+        "morph_nDCG@10": 0.0
+      },
+      {
+        "query_id": "dev_query70",
+        "delta_nDCG@10": -0.5693234419266069,
+        "bpe_nDCG@10": 1.0,
+        "morph_nDCG@10": 0.43067655807339306
+      },
+      {
+        "query_id": "dev_query38",
+        "delta_nDCG@10": -0.5646436081071458,
+        "bpe_nDCG@10": 0.5646436081071458,
+        "morph_nDCG@10": 0.0
+      },
+      {
+        "query_id": "dev_query51",
+        "delta_nDCG@10": -0.5,
+        "bpe_nDCG@10": 0.5,
+        "morph_nDCG@10": 0.0
+      }
+    ],
+    "mean_delta": -0.01936583007661145,
+    "n_helps_total": 23,
+    "n_hurts_total": 25
+  },
+  "tokenization": {
+    "helps": [
+      {
+        "word": "بمدرستنا",
+        "bpe_pieces": 5,
+        "morph_pieces": 3,
+        "delta": -2,
+        "morph_segmented": "ب مدرسة نا",
+        "bpe_tokens": [
+          "ب",
+          "مد",
+          "ر",
+          "ست",
+          "نا"
+        ],
+        "morph_tokens": [
+          "ب",
+          "مدرسة",
+          "نا"
+        ],
+        "comment": "good (fewer pieces)"
+      },
+      {
+        "word": "وللأولاد",
+        "bpe_pieces": 5,
+        "morph_pieces": 4,
+        "delta": -1,
+        "morph_segmented": "و ل ال أولاد",
+        "bpe_tokens": [
+          "ول",
+          "ل",
+          "[UNK]",
+          "ولا",
+          "د"
+        ],
+        "morph_tokens": [
+          "و",
+          "ل",
+          "ال",
+          "أولاد"
+        ],
+        "comment": "good (fewer pieces)"
+      }
+    ],
+    "hurts": [
+      {
+        "word": "فسيذهبون",
+        "bpe_pieces": 3,
+        "morph_pieces": 4,
+        "delta": 1,
+        "morph_segmented": "ف س يذهبون",
+        "bpe_tokens": [
+          "فسي",
+          "ذهب",
+          "ون"
+        ],
+        "morph_tokens": [
+          "ف",
+          "س",
+          "يذهب",
+          "ون"
+        ],
+        "comment": "good (more morphemes, all valid)"
+      },
+      {
+        "word": "ومعلميهم",
+        "bpe_pieces": 3,
+        "morph_pieces": 4,
+        "delta": 1,
+        "morph_segmented": "و معلمي هم",
+        "bpe_tokens": [
+          "ومع",
+          "لم",
+          "يهم"
+        ],
+        "morph_tokens": [
+          "و",
+          "معل",
+          "مي",
+          "هم"
+        ],
+        "comment": "good (more morphemes, all valid)"
+      },
+      {
+        "word": "فبالكتب",
+        "bpe_pieces": 3,
+        "morph_pieces": 4,
+        "delta": 1,
+        "morph_segmented": "ف ب ال كتب",
+        "bpe_tokens": [
+          "ف",
+          "ب",
+          "الكتب"
+        ],
+        "morph_tokens": [
+          "ف",
+          "ب",
+          "ال",
+          "كتب"
+        ],
+        "comment": "good (more morphemes, all valid)"
+      }
+    ],
+    "n_words_inspected": 14,
+    "readable_table": [
+      {
+        "word": "بمدرستنا",
+        "morph_segmented": "ب مدرسة نا",
+        "bpe_tokens": [
+          "ب",
+          "مد",
+          "ر",
+          "ست",
+          "نا"
+        ],
+        "morph_tokens": [
+          "ب",
+          "مدرسة",
+          "نا"
+        ],
+        "comment": "good (fewer pieces)"
+      },
+      {
+        "word": "وللأولاد",
+        "morph_segmented": "و ل ال أولاد",
+        "bpe_tokens": [
+          "ول",
+          "ل",
+          "[UNK]",
+          "ولا",
+          "د"
+        ],
+        "morph_tokens": [
+          "و",
+          "ل",
+          "ال",
+          "أولاد"
+        ],
+        "comment": "good (fewer pieces)"
+      },
+      {
+        "word": "فسيذهبون",
+        "morph_segmented": "ف س يذهبون",
+        "bpe_tokens": [
+          "فسي",
+          "ذهب",
+          "ون"
+        ],
+        "morph_tokens": [
+          "ف",
+          "س",
+          "يذهب",
+          "ون"
+        ],
+        "comment": "good (more morphemes, all valid)"
+      },
+      {
+        "word": "ومعلميهم",
+        "morph_segmented": "و معلمي هم",
+        "bpe_tokens": [
+          "ومع",
+          "لم",
+          "يهم"
+        ],
+        "morph_tokens": [
+          "و",
+          "معل",
+          "مي",
+          "هم"
+        ],
+        "comment": "good (more morphemes, all valid)"
+      },
+      {
+        "word": "فبالكتب",
+        "morph_segmented": "ف ب ال كتب",
+        "bpe_tokens": [
+          "ف",
+          "ب",
+          "الكتب"
+        ],
+        "morph_tokens": [
+          "ف",
+          "ب",
+          "ال",
+          "كتب"
+        ],
+        "comment": "good (more morphemes, all valid)"
+      },
+      {
+        "word": "المعلمون",
+        "morph_segmented": "ال معلمون",
+        "bpe_tokens": [
+          "المع",
+          "لم",
+          "ون"
+        ],
+        "morph_tokens": [
+          "ال",
+          "معلم",
+          "ون"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "بالمدرسة",
+        "morph_segmented": "ب ال مدرسة",
+        "bpe_tokens": [
+          "بالم",
+          "در",
+          "سة"
+        ],
+        "morph_tokens": [
+          "ب",
+          "ال",
+          "مدرسة"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "وكتابهم",
+        "morph_segmented": "و كتاب هم",
+        "bpe_tokens": [
+          "و",
+          "كتاب",
+          "هم"
+        ],
+        "morph_tokens": [
+          "و",
+          "كتاب",
+          "هم"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "للأطفال",
+        "morph_segmented": "ل ال أطفال",
+        "bpe_tokens": [
+          "لل",
+          "[UNK]",
+          "طفال"
+        ],
+        "morph_tokens": [
+          "ل",
+          "ال",
+          "أطفال"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "كتبتها",
+        "morph_segmented": "كتبت ها",
+        "bpe_tokens": [
+          "كتب",
+          "تها"
+        ],
+        "morph_tokens": [
+          "كتبت",
+          "ها"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "يكتبون",
+        "morph_segmented": "يكتبون",
+        "bpe_tokens": [
+          "يكتب",
+          "ون"
+        ],
+        "morph_tokens": [
+          "يكتب",
+          "ون"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "الطالبات",
+        "morph_segmented": "ال طالبات",
+        "bpe_tokens": [
+          "الط",
+          "الب",
+          "ات"
+        ],
+        "morph_tokens": [
+          "ال",
+          "طال",
+          "بات"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "وقالوا",
+        "morph_segmented": "و قالوا",
+        "bpe_tokens": [
+          "وق",
+          "الوا"
+        ],
+        "morph_tokens": [
+          "و",
+          "قالوا"
+        ],
+        "comment": "neutral (same count, different split)"
+      },
+      {
+        "word": "كالأبطال",
+        "morph_segmented": "ك ال أبطال",
+        "bpe_tokens": [
+          "كال",
+          "[UNK]",
+          "بطال"
+        ],
+        "morph_tokens": [
+          "ك",
+          "ال",
+          "أبطال"
+        ],
+        "comment": "neutral (same count, different split)"
+      }
+    ]
+  }
+}

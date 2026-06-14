@@ -1,0 +1,768 @@
+{
+  "configured_backend": "camel",
+  "effective_backend": "camel",
+  "backend": "camel",
+  "morph_mode": "full",
+  "bpe_vocab_size": 8000,
+  "bpe_min_frequency": 2,
+  "n_train_texts": 9408,
+  "n_test_texts": 2000,
+  "efficiency": {
+    "BPE": {
+      "label": "BPE (baseline)",
+      "n_texts": 2000,
+      "n_original_words": 116650,
+      "n_input_units": 116650,
+      "n_words": 116650,
+      "n_pieces": 163557,
+      "avg_pieces_per_original_word": 1.4021174453493357,
+      "avg_pieces_per_input_unit": 1.4021174453493357,
+      "avg_pieces_per_word": 1.4021174453493357,
+      "unk_rate": 6.11407643818363e-06,
+      "vocab_size": 8000,
+      "vocab_coverage": 0.966875
+    },
+    "morph_BPE": {
+      "label": "morph-aware BPE",
+      "n_texts": 2000,
+      "n_original_words": 116650,
+      "n_input_units": 178325,
+      "n_words": 116650,
+      "n_pieces": 196907,
+      "avg_pieces_per_original_word": 1.688015430775825,
+      "avg_pieces_per_input_unit": 1.1042030001401935,
+      "avg_pieces_per_word": 1.688015430775825,
+      "unk_rate": 5.078539615148268e-06,
+      "vocab_size": 8000,
+      "vocab_coverage": 0.913
+    }
+  },
+  "segmentation_error_analysis": {
+    "total_words": 500,
+    "segmented_words": 272,
+    "segmentation_rate": 0.544,
+    "avg_pieces_per_word": 1.716,
+    "one_char_piece_rate": 0.2517482517482518,
+    "valid_one_char_clitic_rate": 0.11771561771561771,
+    "suspicious_short_piece_rate": 0.13403263403263405,
+    "suspicious_short_piece_examples": [
+      {
+        "word": "شيقه",
+        "segmented": "شيق ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "رحمه",
+        "segmented": "رحم ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "واسعه",
+        "segmented": "و أسع ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "استمتاعي",
+        "segmented": "استمتاع ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "تخللتها.",
+        "segmented": "تخللت ها .",
+        "suspicious_piece": "."
+      },
+      {
+        "word": "مجموعه",
+        "segmented": "مجموع ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "بمبالغه",
+        "segmented": "ب مبالغ ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "وجزاله",
+        "segmented": "و جزال ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "!",
+        "segmented": "!",
+        "suspicious_piece": "!"
+      },
+      {
+        "word": "،",
+        "segmented": "،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "عليه",
+        "segmented": "على ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "لمصاحبتي",
+        "segmented": "ل مصاحبة ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "توقعته",
+        "segmented": "توقعت ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "لكنه",
+        "segmented": "لكن ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "ركيكة",
+        "segmented": "ركيك ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "مملة",
+        "segmented": "ممل ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "اكملته",
+        "segmented": "أكملت ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": ".",
+        "segmented": ".",
+        "suspicious_piece": "."
+      },
+      {
+        "word": "اقراه",
+        "segmented": "أقرا ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "=/",
+        "segmented": "= /",
+        "suspicious_piece": "="
+      },
+      {
+        "word": "=/",
+        "segmented": "= /",
+        "suspicious_piece": "/"
+      },
+      {
+        "word": "بيديه",
+        "segmented": "ب يدي ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": ":",
+        "segmented": ":",
+        "suspicious_piece": ":"
+      },
+      {
+        "word": "الحكيم،",
+        "segmented": "ال حكيم ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "براون،",
+        "segmented": "براون ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "اقتباساتي",
+        "segmented": "اقتباسات ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "فيه",
+        "segmented": "في ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "انتباهي",
+        "segmented": "انتباه ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "ثلاثة،",
+        "segmented": "ثلاثة ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "جميلة.",
+        "segmented": "جميلة .",
+        "suspicious_piece": "."
+      },
+      {
+        "word": "عاداتي",
+        "segmented": "عادات ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "الشعر،",
+        "segmented": "ال شعر ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "مختلف،",
+        "segmented": "مختلف ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "اشعاره",
+        "segmented": "أشعار ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "والغرام،",
+        "segmented": "و ال غرام ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "تناوله",
+        "segmented": "تناول ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "وجميلة",
+        "segmented": "و جميل ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "شعره",
+        "segmented": "شعر ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "قلبي",
+        "segmented": "قلب ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "وعقلي",
+        "segmented": "و عقلي ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "كده",
+        "segmented": "كد ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "عايزة",
+        "segmented": "عايز ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "؟",
+        "segmented": "؟",
+        "suspicious_piece": "؟"
+      },
+      {
+        "word": "حنة",
+        "segmented": "حن ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": ":)",
+        "segmented": ": )",
+        "suspicious_piece": ":"
+      },
+      {
+        "word": ":)",
+        "segmented": ": )",
+        "suspicious_piece": ")"
+      },
+      {
+        "word": "ارسلها،",
+        "segmented": "أرسل ها ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "الليبراليين،",
+        "segmented": "ال ليبراليين ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "/",
+        "segmented": "/",
+        "suspicious_piece": "/"
+      },
+      {
+        "word": "الاجنبية،",
+        "segmented": "ال أجنبية ،",
+        "suspicious_piece": "،"
+      }
+    ],
+    "valid_clitic_set": [
+      "ب",
+      "س",
+      "ف",
+      "ك",
+      "ل",
+      "و"
+    ],
+    "n_words": 500,
+    "over_segmentation_rate": 0.13403263403263405,
+    "examples_over_segmented": [
+      {
+        "word": "شيقه",
+        "segmented": "شيق ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "رحمه",
+        "segmented": "رحم ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "واسعه",
+        "segmented": "و أسع ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "استمتاعي",
+        "segmented": "استمتاع ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "تخللتها.",
+        "segmented": "تخللت ها .",
+        "suspicious_piece": "."
+      },
+      {
+        "word": "مجموعه",
+        "segmented": "مجموع ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "بمبالغه",
+        "segmented": "ب مبالغ ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "وجزاله",
+        "segmented": "و جزال ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "!",
+        "segmented": "!",
+        "suspicious_piece": "!"
+      },
+      {
+        "word": "،",
+        "segmented": "،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "عليه",
+        "segmented": "على ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "لمصاحبتي",
+        "segmented": "ل مصاحبة ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "توقعته",
+        "segmented": "توقعت ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "لكنه",
+        "segmented": "لكن ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "ركيكة",
+        "segmented": "ركيك ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "مملة",
+        "segmented": "ممل ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "اكملته",
+        "segmented": "أكملت ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": ".",
+        "segmented": ".",
+        "suspicious_piece": "."
+      },
+      {
+        "word": "اقراه",
+        "segmented": "أقرا ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "=/",
+        "segmented": "= /",
+        "suspicious_piece": "="
+      },
+      {
+        "word": "=/",
+        "segmented": "= /",
+        "suspicious_piece": "/"
+      },
+      {
+        "word": "بيديه",
+        "segmented": "ب يدي ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": ":",
+        "segmented": ":",
+        "suspicious_piece": ":"
+      },
+      {
+        "word": "الحكيم،",
+        "segmented": "ال حكيم ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "براون،",
+        "segmented": "براون ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "اقتباساتي",
+        "segmented": "اقتباسات ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "فيه",
+        "segmented": "في ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "انتباهي",
+        "segmented": "انتباه ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "ثلاثة،",
+        "segmented": "ثلاثة ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "جميلة.",
+        "segmented": "جميلة .",
+        "suspicious_piece": "."
+      },
+      {
+        "word": "عاداتي",
+        "segmented": "عادات ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "الشعر،",
+        "segmented": "ال شعر ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "مختلف،",
+        "segmented": "مختلف ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "اشعاره",
+        "segmented": "أشعار ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "والغرام،",
+        "segmented": "و ال غرام ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "تناوله",
+        "segmented": "تناول ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "وجميلة",
+        "segmented": "و جميل ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "شعره",
+        "segmented": "شعر ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "قلبي",
+        "segmented": "قلب ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "وعقلي",
+        "segmented": "و عقلي ي",
+        "suspicious_piece": "ي"
+      },
+      {
+        "word": "كده",
+        "segmented": "كد ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "عايزة",
+        "segmented": "عايز ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": "؟",
+        "segmented": "؟",
+        "suspicious_piece": "؟"
+      },
+      {
+        "word": "حنة",
+        "segmented": "حن ه",
+        "suspicious_piece": "ه"
+      },
+      {
+        "word": ":)",
+        "segmented": ": )",
+        "suspicious_piece": ":"
+      },
+      {
+        "word": ":)",
+        "segmented": ": )",
+        "suspicious_piece": ")"
+      },
+      {
+        "word": "ارسلها،",
+        "segmented": "أرسل ها ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "الليبراليين،",
+        "segmented": "ال ليبراليين ،",
+        "suspicious_piece": "،"
+      },
+      {
+        "word": "/",
+        "segmented": "/",
+        "suspicious_piece": "/"
+      },
+      {
+        "word": "الاجنبية،",
+        "segmented": "ال أجنبية ،",
+        "suspicious_piece": "،"
+      }
+    ],
+    "examples_unchanged": [
+      {
+        "word": "تجارب",
+        "segmented": "تجارب"
+      },
+      {
+        "word": "رائع",
+        "segmented": "رائع"
+      },
+      {
+        "word": "الله",
+        "segmented": "الله"
+      },
+      {
+        "word": "لم",
+        "segmented": "لم"
+      },
+      {
+        "word": "من",
+        "segmented": "من"
+      },
+      {
+        "word": "التي",
+        "segmented": "التي"
+      },
+      {
+        "word": "و",
+        "segmented": "و"
+      },
+      {
+        "word": "تتسم",
+        "segmented": "تتسم"
+      },
+      {
+        "word": "سيء",
+        "segmented": "سيء"
+      },
+      {
+        "word": "جدا",
+        "segmented": "جدا"
+      },
+      {
+        "word": "!",
+        "segmented": "!"
+      },
+      {
+        "word": "،",
+        "segmented": "،"
+      },
+      {
+        "word": "كان",
+        "segmented": "كان"
+      },
+      {
+        "word": "الذي",
+        "segmented": "الذي"
+      },
+      {
+        "word": "وقع",
+        "segmented": "وقع"
+      },
+      {
+        "word": "عشوائيا",
+        "segmented": "عشوائيا"
+      },
+      {
+        "word": "في",
+        "segmented": "في"
+      },
+      {
+        "word": "ربما",
+        "segmented": "ربما"
+      },
+      {
+        "word": "حجم",
+        "segmented": "حجم"
+      },
+      {
+        "word": "يوازي",
+        "segmented": "يوازي"
+      },
+      {
+        "word": "طول",
+        "segmented": "طول"
+      },
+      {
+        "word": "مسافة",
+        "segmented": "مسافة"
+      },
+      {
+        "word": "تافها",
+        "segmented": "تافها"
+      },
+      {
+        "word": "معادة",
+        "segmented": "معادة"
+      },
+      {
+        "word": "علي",
+        "segmented": "على"
+      },
+      {
+        "word": "مضض",
+        "segmented": "مضض"
+      },
+      {
+        "word": ".",
+        "segmented": "."
+      },
+      {
+        "word": "هو",
+        "segmented": "هو"
+      },
+      {
+        "word": "اول",
+        "segmented": "أول"
+      },
+      {
+        "word": "كتاب",
+        "segmented": "كتاب"
+      },
+      {
+        "word": "ل",
+        "segmented": "ل"
+      },
+      {
+        "word": "عصام",
+        "segmented": "عصام"
+      },
+      {
+        "word": "يوسف",
+        "segmented": "يوسف"
+      },
+      {
+        "word": "لكن",
+        "segmented": "لكن"
+      },
+      {
+        "word": "لا",
+        "segmented": "لا"
+      },
+      {
+        "word": "اعلم",
+        "segmented": "أعلم"
+      },
+      {
+        "word": "ان",
+        "segmented": "أن"
+      },
+      {
+        "word": "ما",
+        "segmented": "ما"
+      },
+      {
+        "word": "كتب",
+        "segmented": "كتب"
+      },
+      {
+        "word": "ام",
+        "segmented": "أم"
+      },
+      {
+        "word": "هناك",
+        "segmented": "هناك"
+      },
+      {
+        "word": "اخري",
+        "segmented": "أخرى"
+      },
+      {
+        "word": "ايا",
+        "segmented": "أيا"
+      },
+      {
+        "word": "ليست",
+        "segmented": "ليست"
+      },
+      {
+        "word": "لدي",
+        "segmented": "لدى"
+      },
+      {
+        "word": "اي",
+        "segmented": "أي"
+      },
+      {
+        "word": "رغبة",
+        "segmented": "رغبة"
+      },
+      {
+        "word": "مرة",
+        "segmented": "مرة"
+      },
+      {
+        "word": "محمد",
+        "segmented": "محمد"
+      },
+      {
+        "word": "الرطيان",
+        "segmented": "الرطيان"
+      }
+    ]
+  },
+  "figures": {
+    "token_histogram": "/content/results/figures/token_histogram.png"
+  }
+}
