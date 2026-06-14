@@ -1,0 +1,10 @@
+datasets
+tokenizers
+scikit-learn
+numpy
+pandas
+scipy
+rank-bm25
+matplotlib
+tqdm
+camel-tools
