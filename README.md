@@ -1,7 +1,7 @@
 # Evaluating Morphology-Aware Tokenization for Arabic NLP and its Impact on Retrieval Systems
 
-Student: Dalya Hassan  
-Student ID: 222053121  
+Student: NLP_Project_Dalya_222053121_Arabic_Morph.ipynb  
+Student ID: 220253121  
 Course: Natural Language Processing (Graduate Course)  
 Instructor: Prof. Aiman Ahmed Abusamra  
 Program: Master of Computer Engineering  
