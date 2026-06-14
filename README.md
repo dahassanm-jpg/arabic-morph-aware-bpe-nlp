@@ -6,7 +6,7 @@ Course: Natural Language Processing (Graduate Course)
 Instructor: Prof. Aiman Ahmed Abusamra  
 Program: Master of Computer Engineering  
 Institution: Islamic University of Gaza  
-Date: April 2026  
+Date: June 2026  
 
 ## Overview
 
