@@ -1,3 +1,4 @@
+[Open in Colab](https://colab.research.google.com/github/YOUR_USERNAME/arabic-morph-aware-bpe-nlp/blob/main/New_NLP_Project_Dalya_222053121_Arabic_Morph.ipynb)
 # Evaluating Morphology-Aware Tokenization for Arabic NLP and its Impact on Retrieval Systems
 
 Student: Dalya Hassan  
